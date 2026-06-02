@@ -44,6 +44,7 @@ The Streamlit interface handles file upload, processing, and question input. It 
 
 ## Architecture
 
+```
 User uploads document
 ↓
 Document Loader (PDF / TXT / DOCX / CSV)
@@ -61,6 +62,7 @@ Similarity Search (retrieve relevant chunks)
 LLM (LLaMA 3.3 70B via Groq) + Context
 ↓
 Formatted Answer
+```
 
 ---
 
@@ -91,6 +93,7 @@ Formatted Answer
 
 ## Project Structure
 
+```
 Luminary-RAG/
 ├── src/
 │   ├── app.py              # Streamlit UI and main app logic
@@ -102,6 +105,7 @@ Luminary-RAG/
 ├── .env                    # API key (not committed to GitHub)
 ├── .gitignore
 └── README.md
+```
 
 ---
 
