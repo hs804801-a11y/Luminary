@@ -120,7 +120,7 @@ Luminary-RAG/
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/luminary.git
+git clone https://github.com/hs804801-a11y/luminary.git
 cd luminary
 ```
 
