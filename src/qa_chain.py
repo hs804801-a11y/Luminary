@@ -9,7 +9,7 @@ load_dotenv()
 
 def create_qa_chain(vector_store):
     llm = ChatGroq(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-20b",
         groq_api_key=os.getenv("GROQ_API_KEY")
     )
 
